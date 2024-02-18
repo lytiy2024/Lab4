@@ -11,6 +11,14 @@ def factorial(x):
         # recursive call to the function
         return (x * factorial(x-1))
 
+def is_power (n):
+    print(n)
+    if n == 1:
+        return 'Є степенем 5'
+    if n < 1:
+        return 'Не є степенем 5'
+    return is_power (n/5)
+
 def pdv():
     """Функція рахує суму з ПДВ та без ПДВ"""
     x2 = return_selection * 6
