@@ -3,11 +3,14 @@ num = 7
 
 # to take input from the user
 # num = int(input("Enter a number: "))
+n = int(input("number: "))
 
 # call the factorial function
 result = factorial(num)
 print("The factorial of", num, "is", result)
 
+is_power (n)
+is_power2 (n)
 
 choice = int(input(colored(color='blue', attrs=['underline'], text='Оберіть операцію :')))
 return_selection = int(input(colored(color='blue', attrs=['underline'], text='Введіть суму :')))
